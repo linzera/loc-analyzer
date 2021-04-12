@@ -1,0 +1,16 @@
+{
+  "name": "loc-analyzer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "export-to-csv": "^0.2.1",
+    "node-fetch": "^2.6.1",
+    "ora": "^5.4.0"
+  },
+  "scripts": {
+    "analyze:loc:java": "node .",
+    "predict:loc:java": "python ./predict/main.py",
+    "start": "node . && python ./predict/main.py"
+  }
+}
