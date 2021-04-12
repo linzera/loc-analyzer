@@ -42,3 +42,7 @@ table.add_row(results)
 
 print("Regressão linear do mês 28")
 print(table)
+
+with open('./predict/predicao.csv', mode='w') as prediction_file:
+    predict_writer = csv.writer(prediction_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    predict_writer.writerow(results)

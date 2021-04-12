@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,python
 
 software_evolution_analyses.csv
+predicao.csv
 
 ### Node ###
 # Logs
