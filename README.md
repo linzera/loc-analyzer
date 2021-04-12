@@ -14,6 +14,7 @@ The analyzer will output a report with:
 yarn install
 cd predict
 pipenv install && pipenv shell
+cd ..
 ```
 
 ## Usage:
